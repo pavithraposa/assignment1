@@ -1,0 +1,167 @@
+.header {
+    background-image: url(headerimage.jpg);     
+}
+
+h1{
+    color: rgb(30, 30, 32);
+    font-style: italic;
+
+}
+
+h2{
+    
+    color: rgb(13, 13, 14);
+    font-style: normal;
+    font-size: smaller;
+
+}
+
+.navigator{
+
+    overflow: hidden;
+    background-color:white;
+
+}
+
+.navigator a{
+    float: left;
+    color: #1d1a1a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.navigator a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  .navigator a.active {
+    background-color: #04AA6D;
+    color: rgb(65, 38, 38);
+}
+
+body{
+    margin: 2px;
+    background-color: rgb(219, 248, 248);
+    
+}
+
+.container{
+    
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+
+}
+
+.section{
+    display: grid;
+    margin-top: 10%;
+    margin-left: 10%;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    
+}
+
+.heading{
+    font-style: italic;
+    margin-left:30%;
+}
+
+.contentoffirstpara{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 2%;
+
+}
+
+.contentofsecondpara{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 2%;
+    
+}
+
+.contentofthirdpara{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 2%;
+ 
+}
+
+.aside{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-bottom: 100%;
+    border:2px  solid rgba(182, 212, 241, 0.856);
+
+}
+
+.image4{
+    min-width: 400px;
+    width:auto;
+    margin-left: 1%;
+
+}
+
+.image5{
+    min-width: 400px;
+    width:auto;
+    margin-left: 1%;
+
+}
+
+.image1{
+    min-width: 550px;
+    width:auto;
+    margin-left: 1%;
+
+}
+
+.image2{
+    min-width: 550px;
+    width:auto;
+    margin-left: 1%;
+
+}
+
+.image3{
+    min-width: 650px;
+    width:auto;
+    margin-left: 1%; 
+
+}
+
+.footer{
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.body{
+    background-color: antiquewhite;
+    
+}
+
+.Contact{
+    margin-left: 30%;
+    margin-right: 30%;
+    border:5px solid solid rgba(182, 212, 241, 0.856);
+    border-style: groove;
+
+}
+.gallery{
+    font-style: italic;
+    margin-left: 18%;
+}
